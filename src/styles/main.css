@@ -38,7 +38,8 @@
 
 html {
   scroll-behavior: smooth;
-  max-height: 100%;
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 body {
@@ -60,7 +61,9 @@ body {
 @media screen and (max-width: 992px) {
   body {
     background: var(--theme-background) url('/assets/images/landing_bg_sm.jpg') no-repeat;
-    background-position: right;
+    /* background-position: center right; */
+    background-size: cover;
+    /* height: 100%; */
   }
 }
 
