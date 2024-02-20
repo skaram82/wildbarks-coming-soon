@@ -1,0 +1,21 @@
+{
+  "name": "astro-theme-foundation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.4.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^1.0.0",
+    "astro-icon": "^0.7.3"
+  }
+}
