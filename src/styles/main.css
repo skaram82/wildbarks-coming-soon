@@ -57,6 +57,13 @@ body {
   background-position: center;
 }
 
+@media screen and (max-width: 992px) {
+  body {
+    background: var(--theme-background) url('/assets/images/landing_bg_sm.jpg') no-repeat;
+    background-position: right;
+  }
+}
+
 .flow>*+* {
   margin-top: var(--flow-space, 1em);
 }
