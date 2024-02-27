@@ -38,8 +38,8 @@
 
 html {
   scroll-behavior: smooth;
-  max-height: 100vh;
-  overflow-y: hidden;
+  /* max-height: 100vh; */
+  /* overflow-y: hidden; */
 }
 
 body {
@@ -53,15 +53,16 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: var(--theme-background) url('/assets/images/landing_bg.jpg') no-repeat;
+  background: rgba(5, 5, 5, 0.5) url('/assets/images/landing_bg.jpg') no-repeat;
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 992px) {
   body {
-    background: var(--theme-background) url('/assets/images/landing_bg_sm.jpg') no-repeat;
-    /* background-position: center right; */
+    background: rgba(5, 5, 5, 0.6) url('/assets/images/landing_bg_sm.jpg') no-repeat;
+    background-position: center right;
     background-size: cover;
     /* height: 100%; */
   }
@@ -110,7 +111,7 @@ h1, h2, h3 {
 }
 
 p, li {
-  max-width: 70ch;
+  /* max-width: 70ch; */
 }
 
 /* Gloal fade in animation */

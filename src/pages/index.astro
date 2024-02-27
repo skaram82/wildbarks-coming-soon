@@ -1,11 +1,10 @@
 ---
 import Layout from '../layouts/Page.astro'
 import Container from '../components/Container.astro';
-import SignupForm from '../components/SignupForm.astro';
 
 const seo = {
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
+  title: 'WILDBARKS | Coming soon',
+  description: 'This is a coming soon page for WILDBARKS',
 }
 ---
 
@@ -15,7 +14,7 @@ const seo = {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     text-align: center;
   }
 </style>
@@ -23,10 +22,11 @@ const seo = {
 <Layout seo={seo}>
   <Container narrow>
     <article class="hero__article">
-      <h1 class="fade-in">Coming Soon...</h1>
-      <!-- <p class="fade-in">Be the first to know when our new site is live!</p> -->
-      <!-- <SignupForm /> -->
+    <div class="h-full">
+      <h1 class="fade-in text-4xl md:text-6xl">Coming Soon...</h1>
+      <p class="fade-in px-12 md:px-32 pt-2 text-slate-300 font-thin">We're thrilled to share that we're undergoing a radically pawsome transformation.</p>
+      <p class="fade-in px-12 md:px-32 pt-12 text-base text-slate-300">After five fantastic years as WOOF WOOF we're leaping into a new chapter as WILD BARKS. We want to thank each and every one of you for being part of our WOOF WOOF family. Your love and support means the world to us and we can't wait to embark this WILD adventure together as WILD BARKS</p>
+    </div>
     </article>
   </Container>
 </Layout>
-
