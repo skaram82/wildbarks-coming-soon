@@ -2,16 +2,16 @@ export const socials = [
   {
     title: 'Instagram',
     icon: 'mdi:instagram',
-    url: 'https://www.instagram.com/jaydanurwin/',
+    url: 'https://www.instagram.com/the.woofwoof/',
   },
   {
     title: 'Facebook',
     icon: 'mdi:facebook',
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://www.facebook.com/woofwoofgr',
   },
   {
     title: 'TikTok',
     icon: 'ic:baseline-tiktok',
-    url: 'https://youtube.com/c/LittleSticks',
+    url: 'https://www.tiktok.com/@the.woofwoof.official',
   },
 ]
